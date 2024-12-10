@@ -21,3 +21,12 @@
   </section>
   <!-- Continue with the dynamic UI -->
 </main>
+
+<script>
+  // Access the dynamic ID parameter from the route
+  export let params;
+  const { id } = params;
+</script>
+
+<h1>Company Profile</h1>
+<p>This page is for company ID: {id}</p>
